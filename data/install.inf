@@ -1,0 +1,28 @@
+[Version]
+Signature="$CHICAGO$"
+Provider=lionkay@gmail.com, 2012
+
+[DefaultInstall]
+AddReg=Install_AddReg
+
+[DefaultUnInstall]
+DelReg=Uninstall_DelReg
+
+[Uninstall_DelReg]
+hkcr,"CSSFile\Shell\Compress"
+hkcr,"JSFile\Shell\Compress"
+hkcr,"PNGFile\Shell\Compress"
+hkcr,"GIFFile\Shell\Compress"
+hkcr,"JPGFile\Shell\Compress"
+
+[Install_AddReg]
+hkcr,"CSSFile\Shell\Compress",,,"压缩CSS文件(&C)"
+hkcr,"CSSFile\Shell\Compress\command",,,"""%01%\compress.cmd"" ""%%1"""
+hkcr,"JSFile\Shell\Compress",,,"压缩JS文件(&C)"
+hkcr,"JSFile\Shell\Compress\command",,,"""%01%\compress.cmd"" ""%%1"""
+hkcr,"PNGFile\Shell\Compress",,,"压缩PNG图片(&C)"
+hkcr,"PNGFile\Shell\Compress\command",,,"""%01%\compressImage.cmd"" ""%%1"""
+hkcr,"GIFFile\Shell\Compress",,,"压缩为PNG(&C)"
+hkcr,"GIFFile\Shell\Compress\command",,,"""%01%\compressImage.cmd"" ""%%1"""
+hkcr,"JPEGFile\Shell\Compress",,,"压缩为PNG(&C)"
+hkcr,"JPEGFile\Shell\Compress\command",,,"""%01%\compressImage.cmd"" ""%%1"""
