@@ -13,7 +13,7 @@ hkcr,"CSSFile\Shell\Compress"
 hkcr,"JSFile\Shell\Compress"
 hkcr,"PNGFile\Shell\Compress"
 hkcr,"GIFFile\Shell\Compress"
-hkcr,"JPGFile\Shell\Compress"
+hkcr,"JPEGFile\Shell\Compress"
 
 [Install_AddReg]
 hkcr,"CSSFile\Shell\Compress",,,"Ñ¹ËõCSSÎÄ¼þ(&C)"
