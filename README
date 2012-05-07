@@ -1,3 +1,10 @@
+---
+2012.5.7
+add UglifyJS
+UglifyJS https://github.com/mishoo/UglifyJS/
+nodejs.exe http://nodejs.org/dist/v0.6.17/
+
+---
 基于玉伯的工具修改 http://code.google.com/p/ourtools/downloads/list
 更新 yuicompressor 到 2.4.7 http://yuilibrary.com/download/yuicompressor/
 更新 google closure compiler 到 20120305 r1810 http://code.google.com/p/closure-compiler/downloads/list
