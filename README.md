@@ -14,33 +14,20 @@ css 使用 yuicompressor 压缩
 *文件命名规则 file.dev.ext => file.ext / file2.ext => file2.min.ext*
 
 ---
-##组件
-1. google closure compiler [http://code.google.com/p/closure-compiler/downloads/list]
-
-2. yuicompressor [http://yuilibrary.com/download/yuicompressor/]
-
-3. pngout [http://advsys.net/ken/util/pngout.htm]
-
-4. UglifyJS [https://github.com/mishoo/UglifyJS/]
-
-5. nodejs [http://nodejs.org/]
-
-
----
 ##组件版本
-### google closure compiler
+1. google closure compiler [http://code.google.com/p/closure-compiler/downloads/list]
 20120430 r1918
 
-### yuicompressor
+2. yuicompressor [http://yuilibrary.com/download/yuicompressor/]
 2.4.7
 
-### pngout
+3. pngout [http://advsys.net/ken/util/pngout.htm]
 07/02/2011
 
-### UglifyJS
+4. UglifyJS [http://nodejs.org/]
 submodule
 
-### nodejs.exe
+5. nodejs.exe [http://nodejs.org/]
 0.6.17 [http://nodejs.org/dist/v0.6.17/]
 
 ---

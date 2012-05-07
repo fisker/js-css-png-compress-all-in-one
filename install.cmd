@@ -1,7 +1,7 @@
 @echo off
 
 pushd "%~dp0"
-rundll32 setupapi.dll,InstallHinfSection DefaultInstall 128 .\data\install.inf
+rundll32 setupapi.dll,InstallHinfSection DefaultInstall 128 .\command\install.inf
 popd
 
 echo.

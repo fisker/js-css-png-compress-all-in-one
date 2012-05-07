@@ -1,0 +1,31 @@
+[Version]
+Signature="$CHICAGO$"
+Provider=lionkay@gmail.com, 2012
+
+[DefaultInstall]
+AddReg=Install_AddReg
+
+[DefaultUnInstall]
+DelReg=Uninstall_DelReg
+
+[Uninstall_DelReg]
+hkcr,"CSSFile\Shell\Compress"
+hkcr,"JSFile\Shell\Compress"
+hkcr,"JSFile\Shell\UglifyJS"
+hkcr,"PNGFile\Shell\pngout"
+hkcr,"GIFFile\Shell\pngout"
+hkcr,"JPEGFile\Shell\pngout"
+
+[Install_AddReg]
+hkcr,"CSSFile\Shell\Compress",,,"YUI &Compressor"
+hkcr,"CSSFile\Shell\Compress\command",,,"""%01%\compress.cmd"" ""%%1"""
+hkcr,"JSFile\Shell\Compress",,,"google closure &compiler"
+hkcr,"JSFile\Shell\Compress\command",,,"""%01%\compress.cmd"" ""%%1"""
+hkcr,"JSFile\Shell\UglifyJS",,,"&UglifyJS"
+hkcr,"JSFile\Shell\UglifyJS\command",,,"""%01%\UglifyJS.cmd"" ""%%1"""
+hkcr,"PNGFile\Shell\pngout",,,"&pngout"
+hkcr,"PNGFile\Shell\pngout\command",,,"""%01%\pngout.cmd"" ""%%1"""
+hkcr,"GIFFile\Shell\pngout",,,"&pngout"
+hkcr,"GIFFile\Shell\pngout\command",,,"""%01%\pngout.cmd"" ""%%1"""
+hkcr,"JPEGFile\Shell\pngout",,,"&pngout"
+hkcr,"JPEGFile\Shell\pngout\command",,,"""%01%\pngout.cmd"" ""%%1"""
