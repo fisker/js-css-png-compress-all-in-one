@@ -28,8 +28,7 @@ css 使用 yuicompressor 压缩
    submodule
 
 5. nodejs.exe [http://nodejs.org/]
-
-0.6.17 [http://nodejs.org/dist/v0.6.17/]
+   0.6.17 [http://nodejs.org/dist/v0.6.17/]
 
 ---
 基于玉伯的工具修改 [http://code.google.com/p/ourtools/downloads/list]
