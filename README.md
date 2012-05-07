@@ -29,7 +29,7 @@ css 使用 yuicompressor 压缩
 ---
 ##组件版本
 ### google closure compiler
-20120305 r1810
+20120430 r1918
 
 ### yuicompressor
 2.4.7
@@ -38,7 +38,7 @@ css 使用 yuicompressor 压缩
 07/02/2011
 
 ### UglifyJS
-commit e06dc6a0d5
+submodule
 
 ### nodejs.exe
 0.6.17 [http://nodejs.org/dist/v0.6.17/]
