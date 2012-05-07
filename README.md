@@ -16,18 +16,23 @@ css 使用 yuicompressor 压缩
 ---
 ##组件版本
 1. google closure compiler [http://code.google.com/p/closure-compiler/downloads/list]
+
 20120430 r1918
 
 2. yuicompressor [http://yuilibrary.com/download/yuicompressor/]
+
 2.4.7
 
 3. pngout [http://advsys.net/ken/util/pngout.htm]
+
 07/02/2011
 
 4. UglifyJS [http://nodejs.org/]
+
 submodule
 
 5. nodejs.exe [http://nodejs.org/]
+
 0.6.17 [http://nodejs.org/dist/v0.6.17/]
 
 ---
