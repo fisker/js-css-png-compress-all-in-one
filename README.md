@@ -8,10 +8,11 @@
 
 3. 图片 使用 pngout.exe 压缩
 
+4. 图片可以使用smush.it压缩 2012.5.18 增加(速度很慢，希望有更好的工具)
 ---
-`js/css文件必须为utf-8编码**`
+`js/css文件必须为utf-8编码`
 
-`文件命名规则 file.dev.ext => file.ext / file2.ext => file2.min.ext**`
+`文件命名规则 file.dev.ext => file.ext / file2.ext => file2.min.ext`
 
 ---
 ##组件版本
@@ -35,6 +36,10 @@
 5. ####nodejs.exe 
   <http://nodejs.org/>
    >0.6.17 <http://nodejs.org/dist/v0.6.17/>
+
+6. ####smushit
+  <https://bitbucket.org/abhirama/smushit/downloads>
+   >0.3 
 
 ---
 基于玉伯的工具修改 [http://code.google.com/p/ourtools/downloads/list]
