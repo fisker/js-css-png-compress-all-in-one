@@ -4,7 +4,7 @@ echo.
 echo =====================================
 echo     JS Compress Script with UglifyJS
 echo    fisker(lionkay@gmail.com)
-echo       2012-5-7
+echo       2012-11-13
 echo =====================================
 echo.
 
@@ -30,10 +30,16 @@ if %ERRORLEVEL% == 0 (
     )
 )
 
+REM 判断x64 x86
+set NODE_EXE=%~dp0..\nodejs\node.x64.exe
+if "%PROCESSOR_ARCHITECTURE%"=="x86" (
+    set NODE_EXE=%~dp0..\nodejs\node.x86.exe
+)
+
 REM 调用 UglifyJS 压缩文件
 if "%FILE_TYPE%" == ".js" (
     copy "%~nx1" "%RESULT_FILE%"
-    "%~dp0..\nodejs\node.exe" "%~dp0..\UglifyJS\bin\uglifyjs" --ascii --no-copyright -nc --overwrite "%RESULT_FILE%"
+    "%NODE_EXE%" "%~dp0..\UglifyJS\bin\uglifyjs" --ascii --no-copyright -nc --overwrite "%RESULT_FILE%"
 )
 
 

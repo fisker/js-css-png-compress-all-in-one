@@ -19,7 +19,7 @@
 ##组件版本
 1. ####google closure compiler 
    <http://code.google.com/p/closure-compiler/downloads/list>
-
+   >20121113 update to compiler-20120917.zip Built at r2180
    >20120430 r1918
 
 2. ####yuicompressor 
@@ -36,6 +36,7 @@
 
 5. ####nodejs.exe 
   <http://nodejs.org/>
+   >20121113 update to v0.8.14 using x64
    >0.6.17 <http://nodejs.org/dist/v0.6.17/>
 
 6. ####smushit

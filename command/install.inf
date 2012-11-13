@@ -18,6 +18,7 @@ hkcr,"JPEGFile\Shell\pngout"
 hkcr,"PNGFile\Shell\smushit"
 hkcr,"GIFFile\Shell\smushit"
 hkcr,"JPEGFile\Shell\smushit"
+hkcr,"JSFile\Shell\UglifyJS2"
 
 [Install_AddReg]
 hkcr,"CSSFile\Shell\Compress",,,"YUI &Compressor"

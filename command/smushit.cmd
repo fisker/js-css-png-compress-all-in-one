@@ -36,9 +36,17 @@ RMDIR /Q /S ".\_smushit_fisker_temp\"
 mkdir ".\_smushit_fisker_temp\"
 copy "%~nx1" "%TEMP_FILE%"
 "%JAVA_HOME%\bin\java.exe" -jar "%~dp0..\smushit\smushit.jar"  -imageDir=.\_smushit_fisker_temp -verbose=true -dryRun=false -imgExtensions=gif,png,jpeg,jpg
+echo.
+echo start looking for the right file
+echo.
+REM 预先复制一份 防止文件不能压缩
+copy "%~nx1" "%RESULT_FILE%"
 cd _smushit_fisker_temp
 for /f "delims=" %%a in ('dir/b/s/a-d *.*') do (
     if %%~za lss %~z1 (
+echo.
+echo find %%a is smaller than %~nx1
+echo.
         copy %%a "smallone"
     )
 )
@@ -56,9 +64,10 @@ if %ERRORLEVEL% == 0 (
     echo.
 ) else (
     echo.
-    echo **** 文件 %~nx1 压缩失败
+    echo **** 文件 %~nx1 压缩失败,或者未能压缩到更小尺寸
+    echo **** 已复制源文件 %~nx1 到 %RESULT_FILE%
     echo.
-	goto End
+    goto End
 )
 goto End
 
