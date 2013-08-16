@@ -30,6 +30,7 @@
 
 3. ####pngout 
   <http://advsys.net/ken/util/pngout.htm>
+  >20130816 update to 02/20/2013 http://advsys.net/ken/utils.htm#pngout
   > 07/02/2011
 
 4. ####UglifyJS 
@@ -38,6 +39,7 @@
 
 5. ####nodejs.exe 
   <http://nodejs.org/>
+   >20130816 update to v0.10.15
    >20130313 update to v0.10.0 using x64 <http://nodejs.org/dist/v0.10.0/>
    >20121113 update to v0.8.14 using x64
    >0.6.17 <http://nodejs.org/dist/v0.6.17/>
