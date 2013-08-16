@@ -19,6 +19,7 @@
 ##组件版本
 1. ####google closure compiler 
    <http://code.google.com/p/closure-compiler/downloads/list>
+   >20130313 update to compiler-20130227.zip
    >20121113 update to compiler-20120917.zip Built at r2180
    >20120430 r1918
 
@@ -36,6 +37,7 @@
 
 5. ####nodejs.exe 
   <http://nodejs.org/>
+   >20130313 update to v0.10.0 using x64 <http://nodejs.org/dist/v0.10.0/>
    >20121113 update to v0.8.14 using x64
    >0.6.17 <http://nodejs.org/dist/v0.6.17/>
 

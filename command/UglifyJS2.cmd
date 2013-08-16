@@ -30,6 +30,10 @@ if %ERRORLEVEL% == 0 (
     )
 )
 
+REM SOURCE MAP
+set SOURCE_MAP_FILE=%RESULT_FILE%.map
+
+
 REM 判断x64 x86
 set NODE_EXE=%~dp0..\nodejs\node.x64.exe
 if "%PROCESSOR_ARCHITECTURE%"=="x86" (
@@ -39,7 +43,7 @@ if "%PROCESSOR_ARCHITECTURE%"=="x86" (
 REM 调用 UglifyJS2 压缩文件
 REM 当前版本在windows下会出错，等待UglifyJS2新版解决
 if "%FILE_TYPE%" == ".js" (
-    "%NODE_EXE%" "%~dp0..\UglifyJS2\bin\uglifyjs2" "%~nx1" --output "%RESULT_FILE%" --compress warnings=false --prefix 3 --mangle
+    "%NODE_EXE%" "%~dp0..\UglifyJS2\bin\uglifyjs" "%~nx1" --output "%RESULT_FILE%" --source-map "%SOURCE_MAP_FILE%" --compress
 )
 
 

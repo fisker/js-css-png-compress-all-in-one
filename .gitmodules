@@ -3,4 +3,10 @@
 	url = https://github.com/mishoo/UglifyJS.git
 [submodule "UglifyJS2"]
 	path = UglifyJS2
-	url = git://github.com/mishoo/UglifyJS2.git
+	url = https://github.com/mishoo/UglifyJS2.git
+[submodule "source-map"]
+	path = source-map
+	url = https://github.com/mozilla/source-map.git
+[submodule "amdefine"]
+	path = amdefine
+	url = https://github.com/jrburke/amdefine.git
