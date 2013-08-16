@@ -19,6 +19,7 @@
 ##组件版本
 1. ####google closure compiler 
    <http://code.google.com/p/closure-compiler/downloads/list>
+   >20130816 update to compiler-20130722.zip
    >20130313 update to compiler-20130227.zip
    >20121113 update to compiler-20120917.zip Built at r2180
    >20120430 r1918
