@@ -45,7 +45,7 @@ if "%FILE_TYPE%" == ".css" (
 REM 调用 compiler 压缩文件
 if "%FILE_TYPE%" == ".js" (
     "%JAVA_HOME%\bin\java.exe" -jar "%~dp0..\compiler\compiler.jar"  --charset UTF-8 --js "%~nx1" --js_output_file "%RESULT_FILE%" --source_map_format=V3 --create_source_map "%SOURCE_MAP_FILE%"
-    echo //@ sourceMappingURL=%SOURCE_MAP_FILE% >> "%RESULT_FILE%"
+    echo //# sourceMappingURL=%SOURCE_MAP_FILE% >> "%RESULT_FILE%"
 )
 
 
