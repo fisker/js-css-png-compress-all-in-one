@@ -40,7 +40,7 @@ set SOURCE_MAP_FILE=%RESULT_FILE%.map
 
 REM 调用 yuicompressor 压缩CSS文件
 if "%FILE_TYPE%" == ".css" (
-    "%JAVA_HOME%\bin\java.exe" -jar "%~dp0..\yuicompressor\yuicompressor-2.4.7.jar" --charset UTF-8 "%~nx1" -o "%RESULT_FILE%"
+    "%JAVA_HOME%\bin\java.exe" -jar "%~dp0..\yuicompressor\yuicompressor-2.4.8.jar" --charset UTF-8 "%~nx1" -o "%RESULT_FILE%"
 )
 REM 调用 compiler 压缩文件
 if "%FILE_TYPE%" == ".js" (

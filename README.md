@@ -19,6 +19,8 @@
 ##组件版本
 1. ####google closure compiler 
    <http://code.google.com/p/closure-compiler/downloads/list>
+   latest version download from http://dl.google.com/closure-compiler/compiler-latest.zip
+   >20140904 update to 2014.08.15
    >20130816 update to compiler-20130722.zip
    >20130313 update to compiler-20130227.zip
    >20121113 update to compiler-20120917.zip Built at r2180
@@ -26,6 +28,7 @@
 
 2. ####yuicompressor 
   <http://yuilibrary.com/download/yuicompressor/>
+   >20140904 update to yuicompressor-2.4.8.jar
    >2.4.7
 
 3. ####pngout 
