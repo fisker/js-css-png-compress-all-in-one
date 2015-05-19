@@ -41,9 +41,11 @@ if "%PROCESSOR_ARCHITECTURE%"=="x86" (
 )
 
 REM 调用 UglifyJS2 压缩文件
-REM 当前版本在windows下会出错，等待UglifyJS2新版解决
+REM 请配置好NODE UglifyJS2后运行
+REM 使用下面命令安装 UglifyJS2  ， npm install uglify-js -g
 if "%FILE_TYPE%" == ".js" (
-    "%NODE_EXE%" "%~dp0..\UglifyJS2\bin\uglifyjs" "%~nx1" --output "%RESULT_FILE%" --source-map "%SOURCE_MAP_FILE%" --compress --prefix 5 --mangle
+    REM "%NODE_EXE%" "%~dp0..\UglifyJS2\bin\uglifyjs" "%~nx1" --output "%RESULT_FILE%" --source-map "%SOURCE_MAP_FILE%" --compress --prefix 5 --mangle
+    uglifyjs "%~nx1" --output "%RESULT_FILE%" --source-map "%SOURCE_MAP_FILE%" --compress --prefix 5 --mangle
 )
 
 

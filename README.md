@@ -2,7 +2,7 @@
 ===========
 > fisker lionkay@gmail.com
 
-1. js 可以选择 google closure compiler 或 UglifyJS 压缩
+1. js 可以选择 google closure compiler 或 UglifyJS2 压缩 （删除UglifyJS,yui压缩JS的功能）
 
 2. css 使用 yuicompressor 压缩
 
@@ -20,6 +20,7 @@
 1. ####google closure compiler 
    <http://code.google.com/p/closure-compiler/downloads/list>
    latest version download from http://dl.google.com/closure-compiler/compiler-latest.zip
+   >20150519 update to 2015.05.07
    >20140904 update to 2014.08.15
    >20130816 update to compiler-20130722.zip
    >20130313 update to compiler-20130227.zip
@@ -33,7 +34,8 @@
 
 3. ####pngout 
   <http://advsys.net/ken/util/pngout.htm>
-  >20130816 update to 02/20/2013 http://advsys.net/ken/utils.htm#pngout
+  > 20150519 update to 02/13/2015
+  > 20130816 update to 02/20/2013 http://advsys.net/ken/utils.htm#pngout
   > 07/02/2011
 
 4. ####UglifyJS 
