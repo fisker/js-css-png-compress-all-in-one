@@ -24,6 +24,23 @@ if %ERRORLEVEL% == 0 (
     )
 )
 "%~dp0\..\pngout\pngout.exe" /y "%~n1%~x1" "%RESULT_FILE%"
+REM "%~dp0\..\pngout\pngout.exe" /k1 /r /v /y "%~n1%~x1" "%RESULT_FILE%"
+
+REM 显示压缩结果
+if %ERRORLEVEL% == 0 (
+    echo.
+    echo 压缩文件 %~nx1 到 %RESULT_FILE%
+    for %%a in ("%RESULT_FILE%") do (
+        echo 文件大小从 %~z1 bytes 压缩到 %%~za bytes
+    )
+    echo.
+) else (
+    echo.
+    echo **** 文件 %~nx1 中有语法错误，请仔细检查
+    echo.
+	goto End
+)
+goto End
 
 :END
 ENDLOCAL

@@ -10,6 +10,7 @@
 
 4. 图片可以使用smush.it压缩 2012.5.18 增加(速度很慢，希望有更好的工具)
 
+5. 图片使用 pngquant 压缩 2015.7.18 增加(有损压缩)
 ---
 `js/css文件必须为utf-8编码`
 
@@ -20,6 +21,7 @@
 1. ####google closure compiler 
    <http://code.google.com/p/closure-compiler/downloads/list>
    latest version download from http://dl.google.com/closure-compiler/compiler-latest.zip
+   >20150718 update to 2015.06.10
    >20150519 update to 2015.05.07
    >20140904 update to 2014.08.15
    >20130816 update to compiler-20130722.zip
@@ -52,6 +54,10 @@
 6. ####smushit
   <https://bitbucket.org/abhirama/smushit/downloads>
    >0.3 
+
+7. ###
+  <https://pngquant.org/>
+    >v2.4.0
 
 ---
 基于玉伯的工具修改 [http://code.google.com/p/ourtools/downloads/list]
